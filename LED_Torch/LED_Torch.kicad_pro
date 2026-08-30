@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -422,11 +422,22 @@
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "top_level_sheets": [],
-    "used_designators": "",
+    "top_level_sheets": [
+      {
+        "filename": "LED_Torch.kicad_sch",
+        "name": "LED_Torch",
+        "uuid": "6e5c0dac-2a01-47e6-a356-f79d078c334a"
+      }
+    ],
+    "used_designators": "BT1,D1,R1,SW1",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "6e5c0dac-2a01-47e6-a356-f79d078c334a",
+      "LED_Torch"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
