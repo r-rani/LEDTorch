@@ -942,89 +942,15 @@
 		)
 		(uuid "b9dfe6d5-0f58-4fe7-9ac8-025bf6a01c92")
 	)
-	(symbol
-		(lib_id "Switch:SW_DPST_x2")
-		(at 168.91 87.63 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2a3bda7b-7e54-4dbb-8048-a9a2a938a21a")
-		(property "Reference" "SW1"
-			(at 168.91 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(label "Resistor_To_Sw"
+		(at 157.48 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Value" "SW_DPDT_x2"
-			(at 168.91 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
-			(at 175.26 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
-			(at 168.91 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fd985ef5-f40e-4d81-82fd-035ddc2c11ee")
-		)
-		(pin "3"
-			(uuid "9ea9948b-3dfe-40c2-8936-9b543b652aa4")
-		)
-		(pin "2"
-			(uuid "594094fb-a848-447a-99b3-ccd8c5278327")
-		)
-		(pin "4"
-			(uuid "2ad85a05-007a-4aa2-9d27-00220560973b")
-		)
-		(instances
-			(project "LED_Torch"
-				(path "/6e5c0dac-2a01-47e6-a356-f79d078c334a"
-					(reference "SW1")
-					(unit 2)
-				)
-			)
-		)
+		(uuid "fdf3e1e8-e85e-406e-8060-59859b975fd6")
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
@@ -1222,6 +1148,92 @@
 			(project "LED_Torch"
 				(path "/6e5c0dac-2a01-47e6-a356-f79d078c334a"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPST_x2")
+		(at 168.91 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd0ee0fd-e7c0-4cc3-9014-133ac75ba0c7")
+		(property "Reference" "SW2"
+			(at 168.91 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPST_x2"
+			(at 168.91 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
+			(at 168.91 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, separate symbol"
+			(at 168.91 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "71f998e9-0cb3-475d-8d0f-d21f35f86e94")
+		)
+		(pin "4"
+			(uuid "35e1ddf5-997f-485a-a2a6-03d481cac8e6")
+		)
+		(pin "3"
+			(uuid "ec141eb5-7218-4f61-b79c-cd7359da466d")
+		)
+		(pin "1"
+			(uuid "679183b8-43bb-47f8-8997-184b6c0fb815")
+		)
+		(instances
+			(project "LED_Torch"
+				(path "/6e5c0dac-2a01-47e6-a356-f79d078c334a"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
